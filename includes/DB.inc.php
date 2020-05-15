@@ -10,7 +10,7 @@ class DB {
         $this->servername = "localhost";
         $this->username = "root";
         $this->password = "root";
-        $this->dbname = "e_com_test";
+        $this->dbname = "ecommerce";
 
         $conn = new mysqli($this->servername, $this->username, $this->password, $this->dbname);
 
