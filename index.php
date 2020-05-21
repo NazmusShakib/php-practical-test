@@ -1,7 +1,5 @@
 <?php
-    include 'includes/DB.inc.php';
-    include 'includes/TaskOne.inc.php';
-    include 'includes/ViewTaskOne.inc.php';
+    include_once 'includes/autoloader.inc.php'
 ?>
 
 <!DOCTYPE html>
