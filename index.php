@@ -33,6 +33,9 @@
 <?php
     $taskOneObj = new ViewTaskOne();
     $items = ($taskOneObj->showTaskOne());
+
+    $concatString = concatString('Nazmus', 'Shakib');
+    echo $concatString;
 ?>
 <h2 style="text-align:center;">Task One</h2>
 <table>
