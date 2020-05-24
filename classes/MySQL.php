@@ -1,6 +1,8 @@
 <?php
+namespace Classes;
 
-require_once 'contracts/DBInterface.class.php';
+use Classes\Contracts\DBInterface;
+use mysqli;
 
 class MySQL implements DBInterface {
     private $servername;

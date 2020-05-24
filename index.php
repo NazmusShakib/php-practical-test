@@ -1,5 +1,6 @@
 <?php
-    include_once 'includes/class-autoloader.inc.php'
+    include_once 'vendor/autoload.php';
+    use Classes\ViewTaskOne;
 ?>
 
 <!DOCTYPE html>
