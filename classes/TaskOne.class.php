@@ -1,6 +1,6 @@
 <?php
 
-class TaskOne extends DB {
+class TaskOne extends MySQL {
 
     protected function getTaskOne() {
         $sql =  "SELECT name AS 'Category Name', COUNT(itemnumber) AS 'Total Items'
