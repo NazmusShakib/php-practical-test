@@ -1,9 +1,9 @@
 <?php
-namespace Classes;
+namespace App\Controllers;;
 
-use Classes\TaskOne;
+use App\Models\TaskOne;
 
-class ViewTaskOne extends TaskOne {
+class TaskOneController extends TaskOne {
 
     public function showTaskOne() {
         $data = $this->getTaskOne();

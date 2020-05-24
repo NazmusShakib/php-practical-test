@@ -11,12 +11,14 @@
     ],
     "require": {},
     "autoload": {
-        "classmap": [],
         "psr-4": {
-            "Classes\\": "classes"
+            "App\\": "app"
         },
         "files": [
             "includes/functions.inc.php"
+        ],
+        "classmap": [
+            "classes"
         ]
     }
 }

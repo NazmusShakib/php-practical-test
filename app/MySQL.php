@@ -1,7 +1,7 @@
 <?php
-namespace Classes;
+namespace App;
 
-use Classes\Contracts\DBInterface;
+use App\Contracts\DBInterface;
 use mysqli;
 
 class MySQL implements DBInterface {

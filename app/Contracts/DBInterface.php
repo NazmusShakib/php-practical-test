@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes\Contracts;
+namespace App\Contracts;
 
 interface DBInterface {
 

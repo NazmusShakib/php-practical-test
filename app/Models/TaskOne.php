@@ -1,7 +1,7 @@
 <?php
-namespace Classes;
+namespace App\Models;
 
-use Classes\MySQL;
+use App\MySQL;
 
 class TaskOne extends MySQL {
 

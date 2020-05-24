@@ -1,6 +1,6 @@
 <?php
     include_once 'vendor/autoload.php';
-    use Classes\ViewTaskOne;
+    use App\Controllers\TaskOneController;
 ?>
 
 <!DOCTYPE html>
@@ -31,11 +31,24 @@
 </head>
 <body>
 <?php
-    $taskOneObj = new ViewTaskOne();
+    // psr-4 autoload example
+    $taskOneObj = new TaskOneController();
     $items = ($taskOneObj->showTaskOne());
 
+    // files autoload example
     $concatString = concatString('Nazmus', 'Shakib');
     echo $concatString;
+
+    echo nl2br("\r\n");
+
+    // classmap autoload example
+    $class1 = new Class1();
+    echo nl2br("\r\n");
+
+    $class2 = new Whatever\Class2();
+    echo nl2br("\r\n");
+
+    $class3 = new Class3();
 ?>
 <h2 style="text-align:center;">Task One</h2>
 <table>
